@@ -1,0 +1,29 @@
+1. Check status of your order 
+
+SELECT order_status 
+FROM orders 
+WHERE order_id = <your_order_id>;
+
+2. Find total amount of your orders
+
+SELECT SUM(order_amount) AS total_amount 
+FROM orders 
+WHERE customer_id = <your_customer_id>;
+
+3. Update your city
+
+UPDATE customers
+SET city = '<new_city>'
+WHERE customer_id = <your_customer_id>;
+
+4. Change Product Description
+
+UPDATE products
+SET product_description = '<new_description>'
+WHERE product_id = <your_product_id>;
+
+5. Display returnable products
+
+SELECT product_name, return_policy 
+FROM products 
+WHERE returnable = 'Yes';
