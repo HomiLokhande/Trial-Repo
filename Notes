@@ -1,0 +1,14 @@
+ 1. GitHub Repository Creation
+   - Create Repo: Set up a new project on GitHub (public/private).
+   - Clone Repo: Copy the repo to your local machine using `git clone <URL>`.
+ 2. Git Workflow
+   - Commit: Save changes with `git add` and `git commit -m "message"`.
+   - Branch: Work on separate features with `git branch <name>` and `git checkout <name>`.
+ 3. Markdown Basics
+   - Headers: `#` for headers (e.g., `# Header 1`).
+   - Lists: `-` for unordered, `1.` for ordered.
+   - Bold/Italic: `bold`, `italic`.
+ 4. Key GitHub Features
+   - Commits: Track changes with commit history.
+   - Issues: Use for bug tracking or tasks.
+   - Pull Requests: Propose changes and request merges.
